@@ -1,0 +1,22 @@
+if SHIELD_COOL940TB_R
+
+config ZMK_KEYBOARD_NAME
+    default "cool940tb_R"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_COOL940TB_L
+
+config ZMK_KEYBOARD_NAME
+    default "cool940tb_L"
+
+config ZMK_SPLIT
+    default y
+
+endif
