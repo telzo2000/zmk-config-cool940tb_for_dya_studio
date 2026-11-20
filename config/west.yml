@@ -4,6 +4,8 @@ manifest:
   remotes:
     - name: cormoran
       url-base: https://github.com/cormoran
+    - name: inorichi
+      url-base: https://github.com/inorichi
     # 既存のリモートはそのまま維持
   projects:
     # ZMK: DYA Studio 用カスタム RPC サブシステム付き cormoran fork
@@ -25,8 +27,13 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: main
+    - name: zmk-feature-custom-settings
+      remote: cormoran
+      revision: main
 
-    # その他のモジュール（トラックボールドライバー、LED ウィジェット等）
-    # ...
+    # PMW3610 トラックボールドライバー（pixart,pmw3610）
+    - name: zmk-pmw3610-driver
+      remote: inorichi
+      revision: main
   self:
     path: config
