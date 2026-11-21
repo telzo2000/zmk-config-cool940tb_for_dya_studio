@@ -1,7 +1,7 @@
-if SHIELD_cool940tb_for_dya_studio_R
+if SHIELD_COOL940TB_R
 
 config ZMK_KEYBOARD_NAME
-    default "cool940tb_for_dya_studio_R"
+    default "cool940tb_R"
 
 config ZMK_SPLIT
     default y
@@ -11,13 +11,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_cool940tb_for_dya_studio_L
+if SHIELD_COOL940TB_L
 
 config ZMK_KEYBOARD_NAME
-    default "cool940tb_for_dya_studio_L"
+    default "cool940tb_L"
 
 config ZMK_SPLIT
     default y
-
 
 endif

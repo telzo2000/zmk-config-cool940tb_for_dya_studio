@@ -1,11 +1,8 @@
-#include "cool940tb_for_dya_studio.dtsi"
-#include <input/processors.dtsi>
+#include "cool940tb.dtsi"
 
 &default_transform {
     col-offset = <6>;
 };
-
-&xiao_serial { status = "disabled"; };
 
 &kscan0 {
         col-gpios
@@ -17,24 +14,10 @@
             ;
 };
 
-
-
-// 非マウスキーでAML解除
-&zip_temp_layer {
-    excluded-positions = <
-        17 // K
-        18 // L
-    >;
-    require-prior-idle-ms = <200>;
-    // トラボ誤爆防止
-};
-
-
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 100000>; // AML
 
     };
 };
@@ -58,6 +41,8 @@
     };
 };
 
+&xiao_serial { status = "disabled"; };
+
 &spi0 {
     status = "okay";
     compatible = "nordic,nrf-spim";
@@ -72,7 +57,8 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        scroll-layers = <5>;
+        scroll-layers = <1>;
     };
 };
+
 

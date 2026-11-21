@@ -1,8 +1,0 @@
-file_format: "1"
-id: cool940tb_for_dya_studio
-name: cool940tb_for_dya_studio
-type: shield
-url: https://github.com/pite1222/zmk-config-cool940tb_for_dya_studio
-requires: [seeeduino_xiao_ble]
-features:
-  - keys

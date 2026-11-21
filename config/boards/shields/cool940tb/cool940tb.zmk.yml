@@ -1,0 +1,8 @@
+file_format: "1"
+id: cool940tb
+name: cool940tb
+type: shield
+url: https://github.com/telzo2000/zmk-config-cool940tb
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
