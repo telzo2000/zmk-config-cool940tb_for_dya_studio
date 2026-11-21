@@ -1,4 +1,4 @@
-if SHIELD_COOL940TB_R
+if SHIELD_cool940tb_R
 
 config ZMK_KEYBOARD_NAME
     default "cool940tb_R"
@@ -11,12 +11,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_COOL940TB_L
+if SHIELD_cool940tb_L
 
 config ZMK_KEYBOARD_NAME
     default "cool940tb_L"
 
 config ZMK_SPLIT
     default y
+
 
 endif

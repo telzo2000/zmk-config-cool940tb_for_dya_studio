@@ -1,5 +1,5 @@
-config SHIELD_COOL940TB_R
+config SHIELD_cool940tb_R
     def_bool $(shields_list_contains,cool940tb_R)
 
-config SHIELD_COOL940TB_L
+config SHIELD_cool940tb_L
     def_bool $(shields_list_contains,cool940tb_L)

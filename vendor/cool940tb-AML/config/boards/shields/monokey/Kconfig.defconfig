@@ -1,7 +1,7 @@
-if SHIELD_MONOKEY_R
+if SHIELD_cool940tb_R
 
 config ZMK_KEYBOARD_NAME
-    default "monokey_R"
+    default "cool940tb_R"
 
 config ZMK_SPLIT
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MONOKEY_L
+if SHIELD_cool940tb_L
 
 config ZMK_KEYBOARD_NAME
-    default "monokey_L"
+    default "cool940tb_L"
 
 config ZMK_SPLIT
     default y
