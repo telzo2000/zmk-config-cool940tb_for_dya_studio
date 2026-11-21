@@ -1,4 +1,4 @@
-#include "monokey.dtsi"
+#include "cool940tb_for_dya_studio.dtsi"
 
 &kscan0 {
         col-gpios

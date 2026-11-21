@@ -1,0 +1,5 @@
+config SHIELD_cool940tb_for_dya_studio_R
+    def_bool $(shields_list_contains,cool940tb_for_dya_studio_R)
+
+config SHIELD_cool940tb_for_dya_studio_L
+    def_bool $(shields_list_contains,cool940tb_for_dya_studio_L)

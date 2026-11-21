@@ -1,8 +1,0 @@
-file_format: "1"
-id: cool940tb
-name: conductor
-type: shield
-url: https://github.com/pite1222/zmk-config-cool940tb
-requires: [seeeduino_xiao_ble]
-features:
-  - keys
